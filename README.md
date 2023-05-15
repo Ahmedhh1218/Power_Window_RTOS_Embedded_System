@@ -1,7 +1,7 @@
 # Power_Window_RTOS_Embedded_System
 This repository contains the code for an embedded real-time system that controls the front passenger door window with both passenger and driver control panels. The system's basic features include manual open/close, one-touch auto open/close, window lock, and jam protection functions.
 
-Requirements
+# Requirements
 
 
 FreeRTOS
@@ -9,7 +9,7 @@ FreeRTOS
 Obstacle detection implementation using a push button to indicate jamming
 
 
-System Features
+# System Features
 
 
 Manual open/close function
@@ -24,7 +24,7 @@ When the window lock switch is turned on, the opening and closing of all windows
 Jam protection function
 This function automatically stops the power window and moves it downward about 0.5 second if foreign matter gets caught in the window during one touch auto close operation.
 
-Getting Started
+# Getting Started
 
 
 Clone the repository and open the project in an IDE that supports FreeRTOS. Compile and upload the code to the microcontroller board.
