@@ -25,5 +25,7 @@ Jam protection function
 This function automatically stops the power window and moves it downward about 0.5 second if foreign matter gets caught in the window during one touch auto close operation.
 
 Getting Started
+
+
 Clone the repository and open the project in an IDE that supports FreeRTOS. Compile and upload the code to the microcontroller board.
 
